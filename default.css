@@ -769,12 +769,12 @@ label.css-label_alarm {background-image:url('http://image.yeoboya.com/imgs/new_w
 /* 170620 열람리스트 수정 */
 .tap_box_interest{overflow:auto;}
 
-.tab_normal{display:inline-block; float:left; width:50%; height:47px; color:#493335; font-size:13px; text-align:center; line-height:49px; border-bottom:1px solid #d0d0d3; box-sizing:border-box;}
+.tab_normal{display:inline-block; float:left; width:50%; height:49px; color:#493335; font-size:13px; text-align:center; line-height:49px; border-bottom:1px solid #d0d0d3; box-sizing:border-box;}
 .tab_normal:nth-of-type(1){border-right:1px solid #e4e4e4;}
 .tab_normal:nth-of-type(2){border-left:1px solid #e4e4e4;}
 .tab_normal:active{background:#fff7ee;}
 .tab_normal img, .tab_on_st2 img, .tab_off_st2 img{display:inline-block; position:relative; top:7px; padding-right:5px;}
 .tab_on_st2{display:inline-block; float:left; width:50%; height:49px; background:#fff7ee; border-bottom:5px solid #473335; box-sizing:border-box; color:#473335; font-size:13px; text-align:center; line-height:49px;}
-.tab_off_st2{display:inline-block; float:left; width:50%; height:49px; border-bottom:1px solid #d0d0d3; color:#949393; font-size:13px; text-align:center; line-height:49px;}
+.tab_off_st2{display:inline-block; float:left; width:50%; height:49px; border-bottom:1px solid #d0d0d3; box-sizing:border-box; color:#949393; font-size:13px; text-align:center; line-height:49px;}
 
-.list_info_ico{float:left; height:auto; margin-top:19px; margin-left:5px;}
+.list_info_ico{float:left; width:11%; height:auto; margin-top:19px; margin-left:5px;}

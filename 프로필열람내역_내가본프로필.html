@@ -74,7 +74,7 @@ var _ctrl = 'openProfileList';
 var _dest = 'index';
 </script>
 <style>
-.prime_txt_mem { height:auto; background-color:#fff; padding:5px 10px; border-bottom:2px solid #b5b5b5;}
+.prime_txt_mem {position:relative; height:auto; background-color:#fff; padding:5px 10px; border-bottom:2px solid #b5b5b5;}
 .prime_txt_mem p { letter-spacing:-1px; font-size:13px; color:#5c5d5d; }
 .profile_rd_member_box{clear:both;width:100%;height:70px;border-bottom:1px solid #bababa;background : #fff;}
 .mg_box_02 {position:relative; clear:both; width:98%; height:56px; margin:0 auto;padding:7px 0 7px 0px;}
@@ -83,7 +83,7 @@ background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe
 .list_check_block {float:left; width:23px; height:auto; margin-top:17px; margin-left:5px;}
 .css-label_18 {display:inline-block; height:18px; background-repeat:no-repeat; background-position:0 0; vertical-align:middle;}
 label.css-label_18 {background-image:url("http://image.yeoboya.com/imgs/new_wedding/mobile/img2/check_msg_list.png");}
-.check_all_bar {display:inline-block; width: 100%; height: 35px; background-color: #f2f2f5; box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25); -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);}
+.check_all_bar {position:relative; display:inline-block; width: 100%; height: 35px; background-color: #f2f2f5; box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25); -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25); -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.25);}
 
 /*161102 내가 본 프로필 수정*/
 .look_box_wrap{display:inline-block; position:absolute; top:3px; width:auto; right:6px; font-size:11px;}
@@ -103,6 +103,9 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 .profile_rd_pbox .count_scrt_img{position:absolute; width:20px; height:20px; top:0px; left:40px;}
 .profile_rd_pbox .count_scrt_img .count_img{width:20px!important; height:20px!important; border:none!important; margin:0!important;}
 .profile_rd_pbox .count_scrt_img p.count_num{position:absolute; top:0; left:0; width:20px; height:20px; font-size:12px; color:#fff; line-height:19px; text-align:center;}
+
+/* 170620 리스트페이지 수정 */
+.btn_open_lst{position:absolute; width:90px; height:26px; top:4px; right:8px; border-radius:3px; background:#473332; border:1px solid #2a1f1e; box-sizing:border-box; font-size:13px; color:#fff; letter-spacing:-1px; line-height:24px; text-align:center;}
 </style>
 
 <div class="wedding_wrap bg_wihte">
@@ -127,6 +130,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 	<label class="css-label_16" for="checkAll"></label>
 	<a href="javascript:$.delOpenProfileList('39679');" class="btn_ch_block float_r font_r">선택삭제</a>
 	<!-- <a href="javascript:$.visitMemBlock('39679');" class="btn_ch_del float_r font_r">선택차단</a> -->
+	<a href="#" class="btn_open_lst float_r font_r">모든열람내역</a>
 </div>
 <!-- 내가 관심 등록 -->
 <div class="openProfileList" id="openProfileList">	<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 19일</span></p> <!-- 170519 추가 -->
