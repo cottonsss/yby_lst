@@ -1,0 +1,1706 @@
+<html lang="ko"><head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<link rel="icon" href="http://image.yeoboya.com/imgs/new_wedding/mobile/img/favicon_16.ico" type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="ALL">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="1 days">
+<meta name="Subject" content="여보야">
+<meta name="description" content="결혼, 재혼, 평생 배우자를 찾는 스마트한 방법, 모바일 다운로드 제공">
+<meta name="keywords" content="여보야, yeoboya, 결혼, 재혼">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="mobile-web-app-capable" content="yes">
+
+
+<title>여보야</title>
+<link href="webfont.min2.css" rel="stylesheet" type="text/css">
+<link href="default.css" rel="stylesheet" type="text/css">
+
+<style>
+#imgSpinBg {position:fixed;width:100%;height:100%;background:rgba(0,0,0,0.7);top:0;}
+#imgSpin {position:fixed;top:50%;left:50%;margin-top:-36px;margin-left:-36px;width:72px;height:72px;}
+@-webkit-keyframes flip /* Safari and Chrome */ {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes flip {
+  from {
+    -ms-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+  to {
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+
+.flip {
+  -webkit-animation: flip 1.2s ease infinite;
+  -moz-animation: flip 1.2s ease infinite;
+  -ms-animation: flip 1.2s ease infinite;
+  -o-animation: flip 1.2s ease infinite;
+  animation: flip 1.2s ease infinite;
+}
+
+.btn_home{display:inline-block;}
+.btn_home{position:absolute; padding:7px 20px 2px 50px; top:0; right:0;}
+</style>
+
+</head>
+<body style=";-webkit-overflow-scrolling: touch">
+<script>
+// path controls
+var _chnl = 'cont';
+var _ctrl = 'visitlist';
+var _dest = 'index';
+</script><style>
+.mg_box_02 {position:relative; clear:both; width:98%; height:56px; margin:0 auto; margin-top:7px;}
+.btn_ch_block {position:absolute; left:36px; width:67px; height:24px; margin-top:4px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%);
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); color:#727272; font-size:13px; text-align:center; line-height:24px;}
+.list_check_block {float:left; height:auto; margin-top:17px; margin-left:5px;} /* 수정됨 */
+.btn_blocklist_look {position:absolute; right:75px; clear:both; width:85px; height:25px; margin-top:10px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); color:#727272; font-size:13px; text-align:center; line-height:24px;}
+.btn_top {position:absolute; right:7px; clear:both; width:60px; height:25px; margin-top:10px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); color:#727272; font-size:13px; text-align:center; line-height:24px;}
+.css-label_18 {display:inline-block; height:18px; background-repeat:no-repeat; background-position:0 0; vertical-align:middle;}
+label.css-label_18 {background-image:url("http://image.yeoboya.com/imgs/new_wedding/mobile/img2/check_msg_list.png");}
+
+.btn_ch_del {position:absolute; left:105px; width:67px; height:24px; margin-top:4px; border:1px solid #adadad; border-radius:3px; background:-moz-linear-gradient(top, #fefefe 0%, #ededed 100%);
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#ededed)); background:-webkit-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-o-linear-gradient(top, #fefefe 0%,#ededed 100%); background:-ms-linear-gradient(top, #fefefe 0%,#ededed 100%); background:linear-gradient(to bottom, #fefefe 0%,#ededed 100%); color:#727272; font-size:13px; text-align:center; line-height:24px;}
+.look_box_wrap { display:inline-block; position:absolute; top:3px; width:auto; right:6px; font-size:11px; }
+.basic_info_look { display:inline-block; white-space:pre-line; letter-spacing:-1px; background: #ffffff; background: -moz-linear-gradient(top,  #ffffff 0%, #f3f3f3 50%, #ededed 51%, #ffffff 100%); background: -webkit-linear-gradient(top,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
+background: linear-gradient(to bottom,  #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%); text-align:center; padding:5px 2px; border-radius:5px; border:1px solid #dedede; } /* 수정됨 */
+.all_info_look { display:inline-block; white-space:pre-line; color:#fff; letter-spacing:-1px; background: #00b7ea;background: -moz-linear-gradient(top,  #00b7ea 0%, #009ec3 100%); background: -webkit-linear-gradient(top,  #00b7ea 0%,#009ec3 100%);
+background: linear-gradient(to bottom,  #00b7ea 0%,#009ec3 100%); text-align:center; padding:5px 2px; border-radius:5px; border:1px solid #00748f; } /* 수정됨 */
+.alarm_arrow {position:absolute; top:41px; left:23px; } /* 수정됨 */
+.my_profile_rd_box {clear:both}
+#subBar {clear:both}
+@media (min-width:360px) {
+.look_box_wrap  { font-size:13px; }
+.alarm_arrow {top:47px; left:26px; }  /* 수정됨 */
+}
+.float_le { float:left;} /* 추가됨 */
+.day_line2 {height:18px; border-bottom:1px solid #afb7b8; background:#e1e3e5; font-size:12px; text-align:center; line-height:18px;} /* 170519 추가 */
+body {cursor: initial; background-color:#fff;} /* 170519 추가 */
+.profile_rd_pbox .count_scrt_img{position:absolute; width:20px; height:20px; top:0px; left:40px;}
+.profile_rd_pbox .count_scrt_img .count_img{width:20px!important; height:20px!important; border:none!important; margin:0!important;}
+.profile_rd_pbox .count_scrt_img p.count_num{position:absolute; top:0; left:0; width:20px; height:20px; font-size:12px; color:#fff; line-height:19px; text-align:center;}
+
+/* 170620 리스트페이지 수정 */
+.btn_open_lst{position:absolute; width:90px; height:26px; top:4px; right:8px; border-radius:3px; background:#473332; border:1px solid #2a1f1e; box-sizing:border-box; font-size:13px; color:#fff; letter-spacing:-1px; line-height:24px; text-align:center;}
+</style>
+
+<div class="wedding_wrap bg_wihte">
+		<header>
+		<a href="javascript:$.goBack();" class="btn_back"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_back.jpg" width="30" height="31" alt="뒤로"></a>
+		<p class="title_header font_m">내 프로필 열람회원</p>
+		<a href="javascript:void(0);" onclick="$.finishPop('')" class="btn_home">
+			<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/home.png" width="33" height="31" alt="홈으로">
+		</a>
+	<span id="connectionStatus" style="position:absolute; top:-5px; left:-3px;">&nbsp;<b><font color="red" size="2">OO</font></b></span></header>	<div class="tap_box_interest">
+		<a href="/?chnl=cont&amp;ctrl=visitlist&amp;dest=index" class="tab_on_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_m.png" width="24" height="22" alt="내프로필열람회원">내 프로필 열람회원</a>
+		<a href="/?chnl=cont&amp;ctrl=openProfileList&amp;dest=index" class="tab_off_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_y_off.png" width="24" height="22" alt="내가 본 프로필">내가 본 프로필</a>
+	</div>
+	<div class="my_profile_rd_box">
+		<div class="mg_box_01">
+			<p class="today font_r float_l"> 오늘<span class="font_m" id="todayVisitCnt"> 1 </span>명 </p>
+			<p class="today font_r float_l text_mg_left"> 전체<span class="font_m" id="totalVisitCnt"> 108 </span>명 </p>
+			<a href="javascript:$.goBlockList('39679');" class="btn_blocklist_look font_r">차단회원보기</a><!--차단회원보기-->
+			<a href="javascript:resetVisitList('39679');" class="btn_top font_m">초기화</a>
+		</div>
+	</div>
+	<div id="subBar" class="check_all_bar" style="box-shadow: none; border-bottom: 1px solid rgb(186, 186, 186); position: relative; top: 0px; z-index: 23;"> <!-- 170519 수정 _ style 추가 (그림자처리 제거 및 단선으로 변경) -->
+		<input class="cp_check_all" id="checkAll" name="checkbox_all" type="checkbox">
+		<label class="css-label_16" for="checkAll"></label>
+		<a href="javascript:$.visitlistDel('39679');" class="btn_ch_block float_r font_r">선택삭제</a>
+		<a href="#" class="btn_open_lst float_r font_r">모든열람내역</a>
+		<!-- <a href="javascript:$.visitMemBlock('39679');" class="btn_ch_del float_r font_r">선택차단</a> -->
+	</div>
+	<div id="printList">
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 21일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_28329" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_28329" value="28329" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_28329"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '28329', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YVlHQmVJaXhkNGhWY0dObGFYdUFlWUtKZXBHRG0yR2NwN0E9" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">3</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">행복을주면같이행<span> (대구 / 54세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.21 오전 8:24</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170621</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('28329', ,'btn_28329', true );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_28329" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'28329', memNick:'행복을주면같이행', memSex:'m', memAge:'54', distance:'대구'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '28329', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 20일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_156948" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_156948" value="156948" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_156948"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '156948', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">다크오블러드<span> (경기 / 35세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오후 11:26</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('156948', ,'btn_156948', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_156948" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'156948', memNick:'다크오블러드', memSex:'m', memAge:'35', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '156948', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_105558" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_105558" value="105558" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_105558"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '105558', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUhtRGU0U0twSXBVYW1waWFudC9kNGFEZTRwYm1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">6</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">앙민<span> (제주 / 37세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오후 10:54</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('105558', ,'btn_105558', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_105558" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'105558', memNick:'앙민', memSex:'m', memAge:'37', distance:'제주'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '105558', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_146504" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_146504" value="146504" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_146504"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '146504', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUgyRWUzK0dwSXBVYW1waWJYbC9kNGlGZVl4WW1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">4</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">서비스따일<span> (광주 / 44세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오후 9:05</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('146504', ,'btn_146504', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_146504" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'146504', memNick:'서비스따일', memSex:'m', memAge:'44', distance:'광주'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '146504', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_154926" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_154926" value="154926" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_154926"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '154926', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUg2Q2Y0R0lwSXBVYW1waWJYcUVkb1NIZG9oY21KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">별빛한가득<span> (전북 / 30세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오후 7:41</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('154926', ,'btn_154926', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_154926" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'154926', memNick:'별빛한가득', memSex:'m', memAge:'30', distance:'전북'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '154926', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_126655" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_126655" value="126655" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_126655"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '126655', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUh1RWZJU0hwSXBVYW1waWJYcUVkNGFDZDR0Y21KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">6</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">또꿈<span> (충북 / 35세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오후 3:07</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('126655', ,'btn_126655', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_126655" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'126655', memNick:'또꿈', memSex:'m', memAge:'35', distance:'충북'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '126655', 'm', 'n');">
+					<span class="all_info_look font_r">전체정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble_all.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_139059" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_139059" value="139059" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_139059"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '139059', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUh5SGRvU0xwSXBVYW1waWJIbUVkb09GZFkxVm1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">5</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">울산청년유군<span> (울산 / 38세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오후 1:35</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('139059', ,'btn_139059', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_139059" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'139059', memNick:'울산청년유군', memSex:'m', memAge:'38', distance:'울산'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '139059', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_156436" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_156436" value="156436" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_156436"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '156436', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">착함<span> (경남 / 24세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오후 12:06</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('156436', ,'btn_156436', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_156436" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'156436', memNick:'착함', memSex:'m', memAge:'24', distance:'경남'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '156436', 'm', 'n');">
+					<span class="all_info_look font_r">전체정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble_all.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_156218" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_156218" value="156218" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_156218"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '156218', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUg2RWVJQ0twSXBVYW1waWJYcUhkb2lEZm9sVm1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">골드바인<span> (충북 / 38세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오후 12:00</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('156218', ,'btn_156218', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_156218" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'156218', memNick:'골드바인', memSex:'m', memAge:'38', distance:'충북'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '156218', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_151050" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_151050" value="151050" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_151050"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '151050', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUg1L2RvU0NwSXBVYW1waWJYcUNkNEtFZklsWm1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">짭짤해<span> (서울 / 32세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오전 9:53</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('151050', ,'btn_151050', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_151050" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'151050', memNick:'짭짤해', memSex:'m', memAge:'32', distance:'서울'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '151050', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_156494" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_156494" value="156494" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_156494"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '156494', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUg2RWVvaUdwSXBVYW1waWJYcUhlSUtEZDR4YW1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">3</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">스릴군<span> (충북 / 30세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오전 9:45</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('156494', ,'btn_156494', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_156494" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'156494', memNick:'스릴군', memSex:'m', memAge:'30', distance:'충북'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '156494', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_42355" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_42355" value="42355" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_42355"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '42355', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YTN1QmU0U3hkNGhWYjJOb2FYdC9lSU9KZVpHRG0yR2NwN0E9" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">3</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">리치로<span> (경기 / 50세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오전 9:32</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('42355', ,'btn_42355', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_42355" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'42355', memNick:'리치로', memSex:'m', memAge:'50', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '42355', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_154575" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_154575" value="154575" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_154575"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '154575', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUg2Q2U0YUhwSXBVYW1waWJYdCtkb2lIZUlwZG1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">재혼상대자를찾읍<span> (경남 / 57세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오전 9:26</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('154575', ,'btn_154575', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_154575" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'154575', memNick:'재혼상대자를찾읍', memSex:'m', memAge:'57', distance:'경남'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '154575', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_73898" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_73898" value="73898" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_73898"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '73898', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=Ym55R2Y0ZXhkNGhWY0dOa2FIcC9lMytHZUpDRG0yR2NwN0E9" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">2</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">까만땅콩<span> (경기 / 42세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.20 오전 9:26</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('73898', ,'btn_73898', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_73898" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'73898', memNick:'까만땅콩', memSex:'m', memAge:'42', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '73898', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 18일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_153432" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_153432" value="153432" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_153432"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '153432', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUg2QmVvS0VwSXBVYW1waWJYcUZlSUdFZkkxYm1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">비원<span> (광주 / 42세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.18 오전 12:02</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170618</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('153432', ,'btn_153432', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_153432" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'153432', memNick:'비원', memSex:'m', memAge:'42', distance:'광주'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '153432', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 17일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_149344" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_149344" value="149344" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_149344"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '149344', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUgySGVZT0dwSXBVYW1waWJYbUJlSUtEZFl4WG1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">인정<span> (광주 / 37세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.17 오후 4:26</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170617</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('149344', ,'btn_149344', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_149344" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'149344', memNick:'인정', memSex:'m', memAge:'37', distance:'광주'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '149344', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_155463" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_155463" value="155463" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_155463"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '155463', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">바글리스<span> (광주 / 32세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.17 오후 2:13</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170617</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('155463', ,'btn_155463', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_155463" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'155463', memNick:'바글리스', memSex:'m', memAge:'32', distance:'광주'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '155463', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_155414" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_155414" value="155414" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_155414"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '155414', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">안뇽요<span> (전남 / 30세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.17 오전 11:42</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170617</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('155414', ,'btn_155414', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_155414" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'155414', memNick:'안뇽요', memSex:'m', memAge:'30', distance:'전남'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '155414', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 16일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_142104" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_142104" value="142104" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_142104"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '142104', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUgyQWQzK0dwSXBVYW1waWJYcUNkb2lGZG8xZG1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">생활속의그리움<span> (경기 / 52세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.16 오전 7:49</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170616</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('142104', ,'btn_142104', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_142104" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'142104', memNick:'생활속의그리움', memSex:'m', memAge:'52', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '142104', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 13일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_149655" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_149655" value="149655" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_149655"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '149655', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">고흥녹동<span> (전남 / 39세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.13 오전 12:03</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170613</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('149655', ,'btn_149655', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_149655" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'149655', memNick:'고흥녹동', memSex:'m', memAge:'39', distance:'전남'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '149655', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 11일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_152342" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_152342" value="152342" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_152342"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '152342', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">결혼하고싶은사람<span> (서울 / 21세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.11 오전 12:19</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170611</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('152342', ,'btn_152342', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_152342" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'152342', memNick:'결혼하고싶은사람', memSex:'m', memAge:'21', distance:'서울'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '152342', 'm', 'n');">
+					<span class="all_info_look font_r">전체정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble_all.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 07일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_149370" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_149370" value="149370" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_149370"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '149370', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">남자다용<span> (경기 / 38세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.07 오전 1:46</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170607</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('149370', ,'btn_149370', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_149370" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'149370', memNick:'남자다용', memSex:'m', memAge:'38', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '149370', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 05일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_145124" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_145124" value="145124" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_145124"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '145124', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUgyRGQ0R0dwSXBVYW1waWJIdUNlSCtIZW90WG1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">엽이<span> (경기 / 26세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.05 오후 10:54</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170605</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('145124', ,'btn_145124', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_145124" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'145124', memNick:'엽이', memSex:'m', memAge:'26', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '145124', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 04일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_64401" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_64401" value="64401" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_64401"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '64401', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YlgyQ2RvQ3hkNGhWYjJOclo0Q0FkNEtKZG9pRG0yR2NwN0E9" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">8</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">핸섬<span> (경기 / 38세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.04 오후 10:23</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170604</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('64401', ,'btn_64401', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_64401" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'64401', memNick:'핸섬', memSex:'m', memAge:'38', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '64401', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 01일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_142571" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_142571" value="142571" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_142571"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '142571', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">사이다처럼<span> (강원 / 38세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.06.01 오후 2:08</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170601</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('142571', ,'btn_142571', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_142571" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'142571', memNick:'사이다처럼', memSex:'m', memAge:'38', distance:'강원'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '142571', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 05월 21일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_143715" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_143715" value="143715" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_143715"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '143715', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUgyQmZZQ0hwSXBVYW1waWJIdUFkb0NHZm9oVW1KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">2</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">존못생<span> (경기 / 33세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.05.21 오전 1:53</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170521</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('143715', ,'btn_143715', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_143715" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'143715', memNick:'존못생', memSex:'m', memAge:'33', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '143715', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 05월 20일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_138613" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_138613" value="138613" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_138613"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '138613', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUh5R2ZJQ0ZwSXBVYW1waWJYcUZkb0NGZm94V21KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">1</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">따봉<span> (경북 / 51세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.05.20 오후 5:24</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170520</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('138613', ,'btn_138613', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_138613" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'138613', memNick:'따봉', memSex:'m', memAge:'51', distance:'경북'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '138613', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_138843" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_138843" value="138843" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_138843"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '138843', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">거친바다<span> (전남 / 43세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.05.20 오후 2:43</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170520</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('138843', ,'btn_138843', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_138843" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'138843', memNick:'거친바다', memSex:'m', memAge:'43', distance:'전남'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '138843', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="profile_rd_member_box" id="btn_138140" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_138140" value="138140" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_138140"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '138140', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://photo.yeoboya.com/prg/yimg.php?type=photo&amp;sdir=&amp;viewname=YUh5R2Q0T0NwSXBVYW1waWJYbUdkNGlIZklwY21KVmdvYm0x" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<div class="count_scrt_img">
+						<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img4/icon_badge2.png" width="23" height="23" class="count_img" alt="프로필사진갯수">
+						<p class="count_num">3</p>
+					</div>
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_02.png" class="wedding_mark" width="28" height="16" alt="결혼">
+				</div>
+				<p class="rd_id id_man_color font_b">나의손을잡아봐<span> (부산 / 38세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.05.20 오전 8:38</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170520</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('138140', ,'btn_138140', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_138140" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'138140', memNick:'나의손을잡아봐', memSex:'m', memAge:'38', distance:'부산'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '138140', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+
+		<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 05월 19일</span></p> <!-- 170519 추가 -->
+
+		<div class="profile_rd_member_box" id="btn_142734" attrbtnmode="block">
+			<div class="mg_box_02">
+				<!--체크박스-->
+				<div class="list_check_block">
+					<input class="cp_check_msg_list" id="chkMem_142734" value="142734" name="checkbox_lite" type="checkbox">
+					<label class="css-label_18" for="chkMem_142734"></label>
+				</div>
+				<div style="display:inline-block; width:87%; margin-top:4px; float:right" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '142734', 'm', 'n');">
+				<div class="profile_rd_pbox float_le">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" onerror="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" class="rd_member_photo" width="418" height="423" alt="회원사진">
+					<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/wedding_mark_01.png" class="wedding_mark" width="28" height="16" alt="재혼">
+				</div>
+				<p class="rd_id id_man_color font_b">환니<span> (경기 / 52세 )</span> </p>
+				<br>
+				<p class="rd_date font_m"> 방문일시<span> | 2017.05.19 오후 7:34</span> </p>
+				<p class="rd_date font_m" style="display:none"><span>20170519</span> </p>
+				</div>
+				<!--
+				<a href="javascript:btnProcess('142734', ,'btn_142734', false );" class="btn_rd_clear float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_block.jpg" width="52" height="30" alt="차단" id="btn_142734" attrBtnMode="block"></a> <a href="javascript:$.goCall({memNo:'142734', memNick:'환니', memSex:'m', memAge:'52', distance:'경기'});" class="btn_profile_call float_r"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_profile_call.jpg" width="52" height="30" alt="연락하기"></a>
+				-->
+				<div class="look_box_wrap" onclick="$.checkHaveMsgItemAndGoProfile('39679', 'f', '142734', 'm', 'n');">
+					<span class="basic_info_look font_r">기본정보
+					열람<img src="http://image.yeoboya.com/imgs/new_wedding/prime/img_arrow_bubble.png" width="13" height="10" class="alarm_arrow"></span>
+				</div>
+			</div>
+		</div>
+</div>
+	<br>
+	<div id="moreBtn" style="display: block;"><a href="javascript:moreView.printList();" class="appBtn">더보기</a></div>
+</div>
+
+<script language="javascript">
+function resetVisitList(memNo) {
+	jQuery.confirm('내프로필열람회원 목록을 초기화 하시겠습니까?', '취소','확인', null,function() {
+		jQuery.ajax({
+			type: 'POST',
+			url: '/?ctrl=visitlist/ajax&dest=ajaxResetVisitList',
+			dataType: 'JSON',
+			data: {
+				memNo: memNo
+			},
+			timeout: 5000,
+			cache: false,
+			success: function(data) {
+				if (data == "1") {
+					// 통계부분 초기화
+					jQuery('span[class="font_m"]').html(' 0 ');
+					// 더보기버튼 삭제
+					jQuery('#moreBtn').remove();
+					// 리스트부분 초기화
+					jQuery('#printList').html('');	// 빈탕만들고
+					moreView.printList();			// 실제로 땡겨와보자.
+				} else {
+					jQuery.alert("시스템 오류, 다시 시도해 주세요", "확인");
+				}
+			},
+			error: function(request, status, error) {
+				jQuery.alert("시스템 오류, 다시 시도해 주세요", "확인");
+			}
+		});
+	});
+}
+
+function btnProcess(memNo, matchNo, btnID, isToday) {
+	var btn = jQuery("#"+btnID);
+	var btnMode = jQuery(btn).attr('attrBtnMode');
+	var confirmMsg = "";
+	var dest = "";
+
+	if (btnMode == "block") {
+		confirmMsg = "차단 하시겠습니까?";
+		dest = "ajaxUserBlock";
+	}
+
+	jQuery.confirm(confirmMsg, '취소','확인',null,function() {
+		jQuery.goBlockUnblock(memNo, matchNo, btnMode, function(data) {
+			if (data == "1") {
+				jQuery(btn).animate({
+					opacity: "0"
+				}, 500, function() {
+					$(this).remove();
+					$.toast( '차단하였습니다.', { duration: 4000 } );
+				});
+
+				var todayCnt = $('#todayVisitCnt').text();
+				var totalVisitCnt = $('#totalVisitCnt').text();
+				//var toDay = $('#date_reserve').val($.datepicker.formatDate('yymmdd', new Date()));
+
+				if(isToday){
+					$('#todayVisitCnt').html(' ' + (todayCnt-1) + ' ');
+					$('#totalVisitCnt').html(' ' + (totalVisitCnt-1) + ' ');
+				}else{
+					$('#totalVisitCnt').html(' ' + (totalVisitCnt-1) + ' ');
+				}
+			} else {
+				jQuery.alert("시스템 오류, 다시 시도해 주세요", "확인");
+			}
+		});
+	});
+}
+
+// 메세지이용권이 있는가?
+$.checkHaveMsgItemAndGoProfile = function(_myMemNo, _mySex, _ptrMemNo, _ptrSex, _isHaveMsgItem){
+	$.actGoProfile(_ptrMemNo);
+	/*if('n' == _isHaveMsgItem){
+		if('f' == _mySex && 'm' == _ptrSex){
+			$.actGoProfile(_ptrMemNo);
+		}
+		else{
+			$.buyPopByProfile('',2);
+		}
+	}
+	else{
+		$.actGoProfile(_ptrMemNo);
+	}*/
+}
+
+//프로필 이동하기
+$.actGoProfile = function(memNo){
+	var getMate = $.ajaxGetMate(memNo);
+	if(getMate['rest_yn'] == 'y'){
+		$.alert('상대회원은 휴면상태입니다.');
+	}else{
+		$.goBlockUnblock(memNo, '', 'chkBlock', function(data) {
+			if(data != "-1") {
+				if($.cookie('siteLayout') == 'w') {
+					opener.location.href = '/?chnl=cont&ctrl=profile&dest=profile&memNo=' + memNo;
+					self.close();
+				}
+				else {
+					window.location.href = '/?chnl=cont&ctrl=profile&dest=profile&memNo=' + memNo;
+				}
+			}else{
+				$.alert('상대회원은 차단상태입니다.');
+			}
+		});
+	}
+}
+
+var _moreView = function() {
+	var self = this;
+	self.pageNum = 1;				// 추가로 보여주어야할 페이번호.
+	self.timeoutHandle = null;		// 스크롤에 발동하는 함수의 timeout handler
+	self.previousListNums = 0;		// 현재 리스팅된 갯수.(마지막에서 더이상 요청이 가지 않도록 하기위함)
+	self.isEnd = false;				// 다 왔냐?
+	self.numPerPage = 30;			// 한페이지에 보여줄 갯수는?
+	self.memNo = ''; // 중매회원의 경우 회원번호를 넘겨줘야 한다.
+
+	self.printList = function() {
+		// 중복실행 방지.
+		clearTimeout(self.timeoutHandle);
+		if (self.isEnd == true) return;
+
+		var lastInsDate = $(".day_line2").last().find("#dateyyyymmdd").text();
+
+		jQuery(window).off('scroll', self.scrollHandler);		// scroll handler 정지.
+		jQuery.ajax({
+			type: 'POST',
+			url: '/?ctrl=visitlist/ajax&dest=ajaxPrintVisitList',
+			dataType: 'html',
+			timeout: 5000,
+			cache: false,
+			data: {
+				pageNum: self.pageNum,
+				numPerPage: self.numPerPage,
+				memNo: self.memNo,
+				lastInsDate: lastInsDate
+			},
+			success: function(data) {
+				jQuery('#printList').append(data);
+				if (jQuery('.profile_rd_member_box').length >= self.numPerPage) {
+					jQuery('#moreBtn').show();
+				}
+				self.pageNum++;
+			},
+			error: function(request, status, error) {
+				jQuery.alert("시스템 오류, 다시 시도해 주세요", "확인");
+			}
+		})
+		.done(function() {
+			jQuery(window).on('scroll', self.scrollHandler);	// scroll handler 재 세팅.
+
+			// 더이상 가져올것이 없는지를 검사하기위함.(마지막 한번은 더 ajax 콜된다.)
+			var listNums = jQuery('.profile_rd_member_box').length;
+			if (listNums > self.previousListNums) {
+				self.previousListNums = listNums;
+			} else {
+				self.isEnd = true;
+				jQuery('#moreBtn').hide();
+			}
+		});
+	};
+
+	self.scrollHandler = function() {
+		if (jQuery(window).scrollTop() + jQuery(window).height() > jQuery(document).height() -5) {
+			jQuery(window).off('scroll', self.scrollHandler);	// delete handler
+
+			self.timeoutHandle = setTimeout(function() {
+				self.printList();
+			}, 1500);
+		}
+	};
+
+	$(window).scroll(function(event){
+		if($(window).scrollTop() > 94) {
+			$('#subBar').css({"position":"fixed","top":"0","z-index":"23"});
+		}
+		else {
+			$('#subBar').css({"position":"relative","top":"0"});
+		}
+	});
+};
+
+var moreView = new _moreView();
+
+jQuery(function() {
+	moreView.printList();
+});
+
+$(document).ready(function() { // 체크박스 전체 선택
+	$("#checkAll").on("click",function(event) {
+		if($("#checkAll").prop('checked')){
+			$("#printList input:checkbox").prop('checked',true);
+			$("#printList input:checkbox").prop('disabled',true);
+		}else{
+			$("#printList input:checkbox").prop('checked',false);
+			$("#printList input:checkbox").prop('disabled',false);
+		}
+	});
+});
+
+/* 방문자선택 차단 ---------- 멀티 차단 프로시져 없어서 보류 혹시 멀티 차단 작업시 프로시져 요청해주세요~~!!
+$.visitMemBlock = function(memNo){
+	if(($('input:checkbox[name="checkbox_lite"]:checked').length)<1){
+		$.alert('차단하실 회원을 한명이상 선택해주세요.');
+		return;
+	}
+
+	var $slctMemBlock = [];
+	$('input:checkbox[name="checkbox_lite"]:checked').each(function() {
+		var $this = $(this);
+		$slctMemBlock.push($this.val());
+	});
+
+	var postData = {'slctMemBlock': $slctMemBlock.join(',')};
+	postData.memNo = memNo;
+	$.confirm('열람회원을 차단하시겠습니까?', '취소','확인',null,function() {
+		$.ajax({
+				async: false,
+				type: "post",
+				url: '/?ctrl=visitlist/ajax&dest=ajaxVisitListBlock',
+				data: postData,
+				dataType: "html",
+				timeout: 30000,
+				success: function(result){	// 성공시
+						switch(result){
+							case "1":
+								$.toast('차단하였습니다.',function(){
+									location.reload();
+								},1000);
+							break;
+							case "2":
+								$.alert("차단 정보가 부족합니다.<br/>페이지를 다시 로딩합니다.",null,function(){
+									location.reload();
+								});
+							break;
+						}
+				},
+				error: function(request,status,error){ //실패시
+					alert(result);
+					$.alert("시스템 오류입니다.<br/>페이지를 다시 로딩합니다.",null,function(){
+						location.reload();
+				});
+			}
+		});
+	});
+}
+*/
+
+//방문자선택 삭제
+$.visitlistDel = function(memNo){
+	if(($('input:checkbox[name="checkbox_lite"]:checked').length)<1){
+		$.alert('삭제하실 회원을 한명이상 선택해주세요.');
+		return;
+	}
+
+	var $slctMemDel = [];
+	$('input:checkbox[name="checkbox_lite"]:checked').each(function() {
+		var $this = $(this);
+		$slctMemDel.push($this.val());
+	});
+	//alert(slctMemDel);
+
+	var postData = {'slctMemDel': $slctMemDel.join(',')};
+	postData.memNo = memNo;
+	$.confirm('열람회원을 삭제하시겠습니까?', '취소','확인',null,function() {
+	$.ajax({
+			async: false,
+			type: "post",
+			url: '/?ctrl=visitlist/ajax&dest=ajaxVisitListDel',
+			data: postData,
+			dataType: "html",
+			timeout: 30000,
+			success: function(result){	// 성공시
+					switch(result){
+						case "1":
+							for(var i=0; i<$slctMemDel.length; i++){
+								$('#btn_'+$slctMemDel[i]).remove();
+							}
+							$(".day_line2").each(function(){
+								var $this = $(this);
+								var strDate = $this.text().replace("년 ","").replace("월 ","").replace("일","");
+								var txtDate = $(".rd_date span").text();
+								if(txtDate.indexOf(strDate)===-1) $this.remove();
+							});
+							if($(".day_line2").length<1){
+								var noList = '<div class="no_rd_member"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/no_rd_member.jpg" width="163" height="141" alt="프로필열람회원이없습니다"></div>';
+								$('#printList').append(noList);
+							}
+							$.toast('삭제하였습니다.',function(){},1000);
+						break;
+						case "2":
+							$.alert("삭제 정보가 부족합니다.<br/>페이지를 다시 로딩합니다.",null,function(){
+								location.reload();
+							});
+						break;
+					}
+			},
+			error: function(request,status,error){ //실패시
+					alert(result);
+					$.alert("시스템 오류입니다.<br/>페이지를 다시 로딩합니다.",null,function(){
+						location.reload();
+					});
+			}
+		});
+	});
+}
+</script>
+
+<style>
+.company_ad { display:none; bottom:0; width:100%; height:auto; background-color:#636467; font-size:12px; color:#FFF;  padding:3px 0; text-align:center; }
+.posi_relative {position: relative;}
+.posi_fixed {position: fixed; }
+#btnMoveTop:focus {outline:none;}
+</style>
+
+<a href="javascript:void(0);" onclick="$(this).effect('bounce',{times:3},30,function(){$.goTop();});" id="btnMoveTop" style="z-index: 999; margin-bottom: 0px; display: none;"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_jump_up.png" width="35" alt=""></a>
+
+<div class="company_ad font_r posi_fixed" id="company_ad">
+(주)인포렉스 대표이사 박진. 사업자등록번호 409-81-49209<br>
+광주광역시 서구 마륵동 165-27. 문의전화 1522-3379<br>
+결혼중개신고번호 광주-서구-국내-15-0003호
+</div>
+
+
+<script>
+$(document).ready(function() {
+
+	$.hashState = 1;
+
+	// open layer use backbutton
+	$.setHash = function(hashStr) {
+		$.hashState = 2;
+		if(history.pushState) {
+			history.pushState('', document.title, '/' + location.search + hashStr);
+		}
+		if(typeof(Storage) !== "undefined") {
+			localStorage.setItem("lastHash", hashStr);
+		}
+	}
+
+	// hash action
+	$.actHash = function(hashData) {
+		$.hashState = 3;
+		switch(hashData) {
+			case '#photo_save_hash' :
+				$("#photo_save_ly").hide();
+				break;
+			case '#slctPrPhoto' :
+				$('#slctPrPhoto').hide();
+				break;
+			case '#slctProfileAttr' :
+				$.closeProfileAttr();
+				break;
+			case '#ifx-alert' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#ifx-confirm' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#msgReport' :
+				$('#profileReport').hide();
+				$('#msgReport').hide();
+				$('#wealthReport').hide();
+				break;
+			case '#ajaxStopID' :
+				$('#ifx-dialog').hide();
+				break;
+			case '#brokerMember' : // ----------------- 중매회원 소개
+				$("#brokerMember").remove();
+				break;
+			case '#miniProfile' : // ----------------- 미니프로필
+				$("#miniProfile").remove();
+				break;
+			case '#bgBlack' : // ----------------- 전체보기버튼 눌렀을 때 암막 2016.11.02 endy
+				$.allMenuHide();
+				break;
+			case '#bgBlackAll' : // ----------------- 2016.11.02 endymion 전체보기버튼 눌렀을 때 암막
+				$.setNewMemAlertHide();
+				break;
+			case '#noticeOpen' :
+				$.noticeClose();
+				break;
+			case '#floating' : // ----------------- 플로팅버튼 2017.04.03 endy
+				$.floatAction();
+				break;
+			case '#ilhaeyoWarning' : // ----------------- 일해요 유의사항 토글 2017.04.03 endy
+				$.noteToggle();
+				break;
+			case '#detailSrchPop' : // ----------------- 상세검색 팝업창 닫기
+				$.directCloseDetailSrchPop();
+				break;
+			case '#alarmLayer' :
+				$(".alarm_layer").slideUp(200);
+				$.hintLayerHide();
+				break;
+			case '#leaveLayer' :
+				layerHide();
+				break;
+			case '#t_mateSlct' :
+				$("#t_mateSlctLayer").attr("value","1");
+				$("#banner_secret_mini, .floating-btn_area_wrap").hide();
+				break;
+			default :
+				// 연락하기
+				if(hashData.indexOf('msg_send_ly')) {
+					var arRet = hashData.split('_');
+					$.msgCloseLayer(arRet[3]);
+				}
+
+				if(hashData.indexOf('msg_rcv_ly')) {
+					var arRet = hashData.split('_');
+					$.msgCloseLayer(arRet[3]);
+				}
+				break;
+			}
+	};
+
+	// hash chcek
+	$(window).on('hashchange', function(e) {
+		if(typeof(Storage) !== "undefined") {
+			if(window.location.hash == '') {
+				$.actHash(localStorage.lastHash);
+				localStorage.setItem("lastHash", '');
+			}
+
+			if(window.location.hash != '' && window.location.hash != localStorage.lastHash) {
+				$.actHash(localStorage.lastHash);
+				localStorage.setItem("lastHash", window.location.hash);
+			}
+		}
+	});
+
+	$(window).scroll(function() {
+		if($(window).scrollTop() > 300) {
+			$('#btnMoveTop').css({"z-index":"999","margin-bottom":"0px"}).show();
+		}
+		else {
+			$('#btnMoveTop').hide();
+		}
+	});
+
+	$(window).on("load", function() {
+		setTimeout(function() {
+
+		}, 0);
+	});
+});
+</script>
+
+<script>
+(function($) {
+	// user stop check
+	if($.cookie('gCCV:NO')) {
+		if($isApp) {
+			$(document).on('WebViewJavascriptBridgeReady', function() {
+				$.userStopChk('userStop');
+			});
+		}
+		else {
+			$.userStopChk('userStop');
+		}
+	}
+}(jQuery));
+</script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-65223325-2', 'auto');
+ga('send', 'pageview');
+</script>
+
+<script type="text/javascript">
+  // 한 페이지에서 두개의 서로다른 신고하기 창 처리
+  var $arProfileList = [ "기타", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     // [허위프로필신고] 의 신고사유 목록
+  var $arMsgList = [ "기타", "욕설/비방", "광고/상업성", "음란성", "SNS 아이디 요구 ( 카톡 )" ];   // 연락하기/메시지에서의 신고사유 목록
+  var $arWealthList1 = [ "기타", "연봉사진 신고", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     //프로필 연봉사진 신고 목록
+  var $arWealthList2 = [ "기타", "학력사진 신고", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     //프로필 학력사진 신고 목록
+  var $arWealthList3 = [ "기타", "차량사진 신고", "개인정보 허위", "광고 및 음란성소개 사진/글"  ];     //프로필 차량사진 신고 목록
+
+  var result = "";
+  var checkVal = "";
+  var pmemNo = '';   // 상대방 회원No
+
+  // 신고사유 라디오버튼을 클릭했을 때 선택한 번호([0:기타,1:개인정보허위,2:광고및음란성 사진/글])가 신고하기 버튼의 onclick 속성값을 업데이트 하도록
+  $.radioClick = function(){
+    checkVal = $(":radio[name='radiog_lite']:checked").val();
+  }
+  // 신고사유 선택된게 없으면 선택하도록 경고창 띄우기 : 메시지박스용(채팅창포함)
+  $.sendMsg = function(msgImg, msgText){
+    if($(":radio[name='radiog_lite']:checked").length > 0) {
+      var checkVal = $(":radio[name='radiog_lite']:checked").val();
+      $.msgReportProc(pmemNo, checkVal, msgImg, msgText);
+	  $('#msgReport').hide();
+      //alert("pmemNo : "+pmemNo+"  / checkVal : "+checkVal+"  / msgImg : "+msgImg+"  / msgText : "+msgText);
+    }
+    else {
+      $.alert('신고사유를 선택하여주세요', '확인', null);
+    }
+  }
+  // 신고사유 선택된게 없으면 선택하도록 경고창 띄우기 : 허위프로필신고용(프로필사진포함)
+  $.sendProfile = function(rptSlct, regNo){
+    if($(":radio[name='radiog_lite']:checked").length > 0) {
+      var rptType = $(":radio[name='radiog_lite']:checked").val();
+      $.reportProc(pmemNo, rptSlct, rptType, regNo);
+	  $('#wealthReport').hide();
+	  $('#profileReport').hide();
+    }
+    else {
+      $.alert('신고사유를 선택하여주세요', '확인', null);
+    }
+  }
+
+  $.cancelMsg = function(){
+	$('.report_wrap').hide();
+  };
+
+  // ====== 앞에서 신고하기를 클릭했을 때의 처리 ====== //
+  // 메시지박스(btnReport, 입력한내용, 이미지파일명, 이미지주소)
+  // 프로필사진(btnReport2, 'p', 신고사유(공백), 신고값(이미지번호))
+  // 허위프로필(btnReport2, 'm', 신고사유(공백), 신고값(0))
+  $.btnClick = function (clickId, msgText, msgImg, photoUrl){
+
+    var rptSlct = msgText;    // 허위프로필 또는 프로필사진일때 : msgText 값을 rptSlct 로 받아서 사용(변수명을 명확히)
+    var regNo = photoUrl;   // 허위프로필 또는 프로필사진일때
+		if(!location.hash){
+			$.setHash('#msgReport');
+		}
+    var selKey = "";           // 신고사유 갯수가 서로 다르기 때문에 클릭한 id값에 따른 배열을 저장한다.
+    var clickReport = "";     // 허위플로필신고(btnReport) or 글쓰기의 신고(btnReport2)
+    var radioList = "";        // 신고사유 리스트를 저장할 변수(라디오버튼-목록)
+    var num =1;               // input 요소의 radio 버튼에 id 값을 줄 때 1 번부터 시작하도록(radio_msg01)
+
+    // 클릭한 버튼이 허위프로필신고(btnReport) or  글쓰기의 신고(btnReport2) 일 때 보여줄 창을 clickReport 에 담는다.
+    switch(clickId){
+    		case "btnReport":
+			      selKey = $arProfileList;
+			      clickReport = $('#profileReport').css('display');
+    		break;
+    		case "btnReport2":
+			      selKey = $arMsgList;
+			      clickReport = $('#msgReport').css('display');
+			      num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+    		break;
+    		case "btnReport3_1":  //프로필 연봉사진 신고
+			      selKey = $arWealthList1;
+			      clickReport = $('#msgReport').css('display');
+			      num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+    		break;
+    		case "btnReport3_2":  //프로필 학력사진 신고
+			      selKey = $arWealthList2;
+			      clickReport = $('#msgReport').css('display');
+			      num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+    		break;
+    		case "btnReport3_3":  //프로필 차량사진 신고
+			      selKey = $arWealthList3;
+			      clickReport = $('#msgReport').css('display');
+			      num += $arProfileList.length;    // 신고하기 창이 하나의 창에서 열리기 때문에  radio 버튼의 id 값을 중복되지 않게 처리
+    		break;
+    		default:
+    				selKey = "";
+    		break;
+    }
+
+    // 위의 신고사유 배열 갯수만큼 ul 요소안에 li 요소로 사유리스트를 만든다.
+    // 실제 신고사유 리스트가 html 코드로 저장(단 기타의 경우 실제 index 값은 "0"이지만 실제 화면에 보이는 위치는 맨 끝으로 가야함)
+    for(var i=0; i<selKey.length; i++) {
+      if(selKey[i] != '기타') {
+        radioList += "<li class='font_m'>";
+        radioList += "<label for='radio_msg0"+(i+num)+"' class='radio_label'>"+selKey[i];
+        radioList += "<input href='javascript:void(0);' onclick='$.radioClick()' name='radiog_lite' type='radio' class='msg_radio_1' id='radio_msg0"+(i+num)+"' value="+i+" />";
+        radioList += "<label for='radio_msg0"+(i+num)+"' class='radio_css01'></label></label>";
+        radioList += "</li>";
+      }
+    }
+    for(var i=0; i<selKey.length; i++) {
+      if(selKey[i] == '기타') {
+        radioList += "<li class='font_m'>";
+        radioList += "<label for='radio_msg0"+(i+num)+"' class='radio_label'>"+selKey[i];
+        radioList += "<input href='javascript:void(0);' onclick='$.radioClick()' name='radiog_lite' type='radio' class='msg_radio_1' id='radio_msg0"+(i+num)+"' value="+i+" />";
+        radioList += "<label for='radio_msg0"+(i+num)+"' class='radio_css01'></label></label>";
+        radioList += "</li>";
+      }
+    }
+    // 신고사유선택창 : 허위프로필용
+    var wrapHeight = 0;
+    var winHeight = parseInt($(window).height());
+
+    if(clickReport == 'none'){
+    		switch(clickId){
+    				case "btnReport":
+					      $('#profileReport').show();
+					      $('#msgReport').hide();
+					      $('#wealthReport').hide();
+					      $('#profileReportUl > span').html(radioList);
+					      wrapHeight = parseInt($('#profileReport').css('height').replace(/[^0-9]/g,''))+50;
+					      result = "$.sendProfile('"+rptSlct+"','"+regNo+"')";
+    				break;
+    				case "btnReport2":
+					      if((msgImg == "||" || msgImg == "|" || msgImg == "null||") && msgText != null){
+					       		radioList += "<li class='font_m last_li'>"+msgText+"<br><br><br></li>";
+					      }else{
+					        	radioList += "<li class='font_m last_li' ><div id='imgReport'></div></li>";
+					      }
+					      $('#msgReport').show();
+					      $('#profileReport').hide();
+					      $('#wealthReport').hide();
+					      $('#msgReportUl > span').html(radioList);
+					      wrapHeight = parseInt($('#msgReport').css('height').replace(/[^0-9]/g,''));
+					      result = "$.sendMsg('"+msgImg+"','"+msgText+"')";
+    				break;
+    				case "btnReport3_1":
+    				case "btnReport3_2":
+    				case "btnReport3_3":
+					      $('#wealthReport').show();
+					      $('#msgReport').hide();
+					      $('#profileReport').hide();
+					      $('#wealthReportUI > span').html(radioList);
+					      wrapHeight = parseInt($('#profileReport').css('height').replace(/[^0-9]/g,''))+90;
+					      result = "$.sendProfile('"+rptSlct+"','"+regNo+"')";
+    				break;
+    				default:
+					      $('#profileReport').hide();
+					      $('#msgReport').hide();
+    				break;
+    		}
+    }else{
+	      $('#profileReport').hide();
+	      $('#msgReport').hide();
+    }
+
+    $('.sendReport').attr('onclick', result);
+//    $('#radio_msg0'+num).attr('checked', true);
+    $('#imgReport').css("background-image","url('"+photoUrl+"')");
+    $('.report_wrap').css("top", ((winHeight-wrapHeight)/2)+"px");
+  }
+</script>
+
+
+</body></html>
