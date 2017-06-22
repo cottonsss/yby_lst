@@ -104,8 +104,6 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 .profile_rd_pbox .count_scrt_img .count_img{width:20px!important; height:20px!important; border:none!important; margin:0!important;}
 .profile_rd_pbox .count_scrt_img p.count_num{position:absolute; top:0; left:0; width:20px; height:20px; font-size:12px; color:#fff; line-height:19px; text-align:center;}
 
-/* 170620 리스트페이지 수정 */
-.btn_open_lst{position:absolute; width:90px; height:26px; top:4px; right:8px; border-radius:3px; background:#473332; border:1px solid #2a1f1e; box-sizing:border-box; font-size:13px; color:#fff; letter-spacing:-1px; line-height:24px; text-align:center;}
 </style>
 
 <div class="wedding_wrap bg_wihte">
@@ -117,8 +115,9 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 		</a>
 	<span id="connectionStatus" style="position:absolute; top:-5px; left:-3px;">&nbsp;<b><font color="red" size="2">OO</font></b></span></header></div>
 <div class="tap_box_interest">
-		<a href="/?chnl=cont&amp;ctrl=visitlist&amp;dest=index" class="tab_off_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_m_off.png" width="24" height="22" alt="내프로필열람회원">내 프로필 열람회원</a>
-		<a href="/?chnl=cont&amp;ctrl=openProfileList&amp;dest=index" class="tab_on_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_y.png" width="24" height="22" alt="내가 본 프로필">내가 본 프로필</a>
+		<a href="#" class="tab_off_st2 font_b" style="width:32%;"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_all_off.png" width="26" height="22" alt="전체열람내역">전체열람내역</a>
+        <a href="/?chnl=cont&amp;ctrl=visitlist&amp;dest=index" class="tab_off_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_m_off.png" width="24" height="22" alt="내프로필열람회원">내 프로필 열람회원</a>
+        <a href="/?chnl=cont&amp;ctrl=openProfileList&amp;dest=index" class="tab_on_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_y.png" width="24" height="22" alt="내가 본 프로필">내가 본 프로필</a>
 </div>
 
 <div class="prime_txt_mem font_m">
@@ -130,7 +129,6 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 	<label class="css-label_16" for="checkAll"></label>
 	<a href="javascript:$.delOpenProfileList('39679');" class="btn_ch_block float_r font_r">선택삭제</a>
 	<!-- <a href="javascript:$.visitMemBlock('39679');" class="btn_ch_del float_r font_r">선택차단</a> -->
-	<a href="#" class="btn_open_lst float_r font_r">모든열람내역</a>
 </div>
 <!-- 내가 관심 등록 -->
 <div class="openProfileList" id="openProfileList">	<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 19일</span></p> <!-- 170519 추가 -->
@@ -157,7 +155,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
                 </div>
                 <p class="rd_id id_man_color font_b">별빛한가득<span> (전북 / 30세 )</span> </p>
                 <br>
-                <p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.19 오후 2:28</span>
+                <p class="rd_date font_m"><span class="ico_clock">2017.06.19 오후 2:28</span>
                 </p><p class="rd_date font_m" style="display:none;"><span>20170619</span>
                 </p>
             </div>
@@ -187,7 +185,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
                 </div>
                 <p class="rd_id id_man_color font_b">사이다처럼<span> (강원 / 38세 )</span> </p>
                 <br>
-                <p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.08 오후 4:12</span>
+                <p class="rd_date font_m"><span class="ico_clock">2017.06.08 오후 4:12</span>
                 </p><p class="rd_date font_m" style="display:none;"><span>20170608</span>
                 </p>
             </div>
@@ -220,7 +218,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
                 </div>
                 <p class="rd_id id_man_color font_b">엽이<span> (경기 / 26세 )</span> </p>
                 <br>
-                <p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.08 오후 3:38</span>
+                <p class="rd_date font_m"><span class="ico_clock">2017.06.08 오후 3:38</span>
                 </p><p class="rd_date font_m" style="display:none;"><span>20170608</span>
                 </p>
             </div>

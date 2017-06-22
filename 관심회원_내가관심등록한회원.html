@@ -212,18 +212,16 @@ jQuery(function() {
 <div class="wedding_wrap bg_wihte">
 		<header>
 		<a href="javascript:$.goBack();" class="btn_back"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_back.jpg" width="30" height="31" alt="뒤로"></a>
-		<p class="title_header font_m">나를 관심등록한 회원</p>
+		<p class="title_header font_m">내가 관심등록한 회원</p>
 		<a href="javascript:void(0);" onclick="$.finishPop('')" class="btn_home">
 			<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/home.png" width="33" height="31" alt="홈으로">
 		</a>
 	<span id="connectionStatus" style="position:absolute; top:-5px; left:-3px;">&nbsp;<b><font color="red" size="2">OO</font></b></span></header>
 		<div class="tap_box_interest">
-		<a href="/?chnl=cont&amp;ctrl=interestList&amp;dest=&amp;memNo=" class="tab_off_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_intrst_y_off.png" width="24" height="19" alt="내가관심등록한회원" style="top:5px;">내가 관심등록한 회원</a>
-		<a href="/?chnl=cont&amp;ctrl=interestList&amp;dest=interest&amp;memNo=" class="tab_on_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_intrst_m.png" width="24" height="19" alt="나를관심등록한회원" style="top:5px;">나를 관심등록한 회원</a>
+		<a href="#" class="tab_off_st2 font_b" style="width:32%;"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_intrst_all_off.png" width="26" height="19" alt="내가관심등록한회원" style="top:5px;">전체 관심 회원</a>
+		<a href="/?chnl=cont&amp;ctrl=interestList&amp;dest=&amp;memNo=" class="tab_on_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_intrst_y.png" width="24" height="19" alt="내가관심등록한회원" style="top:5px;">내가 관심등록한 회원</a>
+		<a href="/?chnl=cont&amp;ctrl=interestList&amp;dest=interest&amp;memNo=" class="tab_off_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_intrst_m_off.png" width="24" height="19" alt="나를관심등록한회원" style="top:5px;">나를 관심등록한 회원</a>
 	</div>
-	<div id="subBar" class="check_all_bar" style="box-shadow:none; border-bottom:1px solid #bababa;"> <!-- 170519 수정 _ style 추가 (그림자처리 제거 및 단선으로 변경) -->
-        <a href="#" class="btn_open_lst float_r font_r">모든관심회원</a>
-    </div>
 		<!-- 나를 관심 등록 -->
 	<div id="printList"><style>
 .mg_block_box {width:100%; height:48px; margin:0 auto; line-height:48px;}
@@ -245,7 +243,7 @@ label.css-label_18 {background-image:url("http://image.yeoboya.com/imgs/new_wedd
 
 /* 170620 리스트페이지 수정 */
 .check_all_bar{position:relative;}
-.btn_open_lst{position:absolute; width:90px; height:26px; top:4px; right:8px; border-radius:3px; background:#473332; border:1px solid #2a1f1e; box-sizing:border-box; font-size:13px; color:#fff; letter-spacing:-1px; line-height:24px; text-align:center;}
+
 </style>
 	<!-- 나를 관심 등록 -->
 			<p class="font_m day_line2"><span id="dateyyyymmdd">2017년 06월 10일</span></p> <!-- 170519 추가 -->
@@ -258,7 +256,7 @@ label.css-label_18 {background-image:url("http://image.yeoboya.com/imgs/new_wedd
 					</div>
 					<p class="rd_id id_man_color font_b">결혼하고싶은사람<span> (서울 / 21세 )</span> </p>
 					<br>
-					<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.10 오후 5:45</span> </p>
+					<p class="rd_date font_m"><span class="ico_clock">2017.06.10 오후 5:45</span> </p>
 				</div>
 			</div>
 		</div>
@@ -273,7 +271,7 @@ label.css-label_18 {background-image:url("http://image.yeoboya.com/imgs/new_wedd
 					</div>
 					<p class="rd_id id_man_color font_b">아픔<span> (광주 / 35세 )</span> </p>
 					<br>
-					<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.04.13 오후 12:40</span> </p>
+					<p class="rd_date font_m"><span class="ico_clock">2017.04.13 오후 12:40</span> </p>
 				</div>
 			</div>
 		</div>

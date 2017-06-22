@@ -103,9 +103,6 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 .profile_rd_pbox .count_scrt_img{position:absolute; width:20px; height:20px; top:0px; left:40px;}
 .profile_rd_pbox .count_scrt_img .count_img{width:20px!important; height:20px!important; border:none!important; margin:0!important;}
 .profile_rd_pbox .count_scrt_img p.count_num{position:absolute; top:0; left:0; width:20px; height:20px; font-size:12px; color:#fff; line-height:19px; text-align:center;}
-
-/* 170620 리스트페이지 수정 */
-.btn_open_lst{position:absolute; width:90px; height:26px; top:4px; right:8px; border-radius:3px; background:#473332; border:1px solid #2a1f1e; box-sizing:border-box; font-size:13px; color:#fff; letter-spacing:-1px; line-height:24px; text-align:center;}
 </style>
 
 <div class="wedding_wrap bg_wihte">
@@ -116,8 +113,9 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 			<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/home.png" width="33" height="31" alt="홈으로">
 		</a>
 	<span id="connectionStatus" style="position:absolute; top:-5px; left:-3px;">&nbsp;<b><font color="red" size="2">OO</font></b></span></header>	<div class="tap_box_interest">
-		<a href="/?chnl=cont&amp;ctrl=visitlist&amp;dest=index" class="tab_on_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_m.png" width="24" height="22" alt="내프로필열람회원">내 프로필 열람회원</a>
-		<a href="/?chnl=cont&amp;ctrl=openProfileList&amp;dest=index" class="tab_off_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_y_off.png" width="24" height="22" alt="내가 본 프로필">내가 본 프로필</a>
+        <a href="#" class="tab_off_st2 font_b" style="width:32%;"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_all_off.png" width="26" height="22" alt="전체열람내역">전체열람내역</a>
+        <a href="/?chnl=cont&amp;ctrl=visitlist&amp;dest=index" class="tab_on_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_m.png" width="24" height="22" alt="내프로필열람회원">내 프로필 열람회원</a>
+        <a href="/?chnl=cont&amp;ctrl=openProfileList&amp;dest=index" class="tab_off_st2 font_b"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_pro_y_off.png" width="24" height="22" alt="내가 본 프로필">내가 본 프로필</a>
 	</div>
 	<div class="my_profile_rd_box">
 		<div class="mg_box_01">
@@ -131,7 +129,6 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 		<input class="cp_check_all" id="checkAll" name="checkbox_all" type="checkbox">
 		<label class="css-label_16" for="checkAll"></label>
 		<a href="javascript:$.visitlistDel('39679');" class="btn_ch_block float_r font_r">선택삭제</a>
-		<a href="#" class="btn_open_lst float_r font_r">모든열람내역</a>
 		<!-- <a href="javascript:$.visitMemBlock('39679');" class="btn_ch_del float_r font_r">선택차단</a> -->
 	</div>
 	<div id="printList">
@@ -155,7 +152,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">행복을주면같이행<span> (대구 / 54세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.21 오전 8:24</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.21 오전 8:24</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170621</span> </p>
 				</div>
 				<!--
@@ -184,7 +181,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">다크오블러드<span> (경기 / 35세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오후 11:26</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오후 11:26</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -215,7 +212,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">앙민<span> (제주 / 37세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오후 10:54</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오후 10:54</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -246,7 +243,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">서비스따일<span> (광주 / 44세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오후 9:05</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오후 9:05</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -277,7 +274,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">별빛한가득<span> (전북 / 30세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오후 7:41</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오후 7:41</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -308,7 +305,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">또꿈<span> (충북 / 35세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오후 3:07</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오후 3:07</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -339,7 +336,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">울산청년유군<span> (울산 / 38세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오후 1:35</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오후 1:35</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -370,7 +367,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">착함<span> (경남 / 24세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오후 12:06</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오후 12:06</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -401,7 +398,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">골드바인<span> (충북 / 38세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오후 12:00</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오후 12:00</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -432,7 +429,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">짭짤해<span> (서울 / 32세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오전 9:53</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오전 9:53</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -463,7 +460,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">스릴군<span> (충북 / 30세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오전 9:45</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오전 9:45</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -494,7 +491,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">리치로<span> (경기 / 50세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오전 9:32</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오전 9:32</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -525,7 +522,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">재혼상대자를찾읍<span> (경남 / 57세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오전 9:26</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오전 9:26</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -556,7 +553,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">까만땅콩<span> (경기 / 42세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.20 오전 9:26</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.20 오전 9:26</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170620</span> </p>
 				</div>
 				<!--
@@ -589,7 +586,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">비원<span> (광주 / 42세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.18 오전 12:02</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.18 오전 12:02</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170618</span> </p>
 				</div>
 				<!--
@@ -622,7 +619,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">인정<span> (광주 / 37세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.17 오후 4:26</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.17 오후 4:26</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170617</span> </p>
 				</div>
 				<!--
@@ -649,7 +646,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">바글리스<span> (광주 / 32세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.17 오후 2:13</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.17 오후 2:13</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170617</span> </p>
 				</div>
 				<!--
@@ -676,7 +673,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">안뇽요<span> (전남 / 30세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.17 오전 11:42</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.17 오전 11:42</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170617</span> </p>
 				</div>
 				<!--
@@ -709,7 +706,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">생활속의그리움<span> (경기 / 52세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.16 오전 7:49</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.16 오전 7:49</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170616</span> </p>
 				</div>
 				<!--
@@ -738,7 +735,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">고흥녹동<span> (전남 / 39세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.13 오전 12:03</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.13 오전 12:03</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170613</span> </p>
 				</div>
 				<!--
@@ -767,7 +764,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">결혼하고싶은사람<span> (서울 / 21세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.11 오전 12:19</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.11 오전 12:19</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170611</span> </p>
 				</div>
 				<!--
@@ -796,7 +793,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">남자다용<span> (경기 / 38세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.07 오전 1:46</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.07 오전 1:46</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170607</span> </p>
 				</div>
 				<!--
@@ -829,7 +826,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">엽이<span> (경기 / 26세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.05 오후 10:54</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.05 오후 10:54</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170605</span> </p>
 				</div>
 				<!--
@@ -862,7 +859,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">핸섬<span> (경기 / 38세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.04 오후 10:23</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.04 오후 10:23</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170604</span> </p>
 				</div>
 				<!--
@@ -891,7 +888,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">사이다처럼<span> (강원 / 38세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.06.01 오후 2:08</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.06.01 오후 2:08</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170601</span> </p>
 				</div>
 				<!--
@@ -924,7 +921,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">존못생<span> (경기 / 33세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.05.21 오전 1:53</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.05.21 오전 1:53</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170521</span> </p>
 				</div>
 				<!--
@@ -957,7 +954,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">따봉<span> (경북 / 51세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.05.20 오후 5:24</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.05.20 오후 5:24</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170520</span> </p>
 				</div>
 				<!--
@@ -984,7 +981,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">거친바다<span> (전남 / 43세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.05.20 오후 2:43</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.05.20 오후 2:43</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170520</span> </p>
 				</div>
 				<!--
@@ -1015,7 +1012,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">나의손을잡아봐<span> (부산 / 38세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.05.20 오전 8:38</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.05.20 오전 8:38</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170520</span> </p>
 				</div>
 				<!--
@@ -1044,7 +1041,7 @@ body {cursor: initial; background-color:#fff;} /* 170519 추가 */
 				</div>
 				<p class="rd_id id_man_color font_b">환니<span> (경기 / 52세 )</span> </p>
 				<br>
-				<p class="rd_date font_m"><img src="http://image.yeoboya.com/imgs/new_wedding/img/ico_clock.png" width="12" height="12" alt="시간" style="position:relative; top:2px;"><span> 2017.05.19 오후 7:34</span> </p>
+				<p class="rd_date font_m"><span class="ico_clock">2017.05.19 오후 7:34</span> </p>
 				<p class="rd_date font_m" style="display:none"><span>20170519</span> </p>
 				</div>
 				<!--
