@@ -769,7 +769,7 @@ label.css-label_alarm {background-image:url('http://image.yeoboya.com/imgs/new_w
 /* 170620 열람리스트 수정 */
 .tap_box_interest{overflow:auto;}
 
-.tab_normal img, .tab_on_st2 img, .tab_off_st2 img{display:block; position:relative; top:6px; margin:0 auto; padding-right:5px; padding-bottom:5px;}
+.tab_normal img, .tab_on_st2 img, .tab_off_st2 img{display:block; position:relative; top:7px; margin:0 auto; padding-right:5px; padding-bottom:7px;}
 .tab_on_st2{display:inline-block; float:left; width:34%; height:49px; background:#fff7ee; border-bottom:4px solid #473335; box-sizing:border-box; color:#473335; font-size:13px; letter-spacing:-1px; text-align:center;}
 .tab_off_st2{display:inline-block; float:left; width:34%; height:49px; border-bottom:1px solid #d0d0d3; box-sizing:border-box; color:#949393; font-size:13px; letter-spacing:-1px; text-align:center;}
 
